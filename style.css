@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Darker Grotesque", sans-serif;
+  overflow-x: hidden;
+  text-decoration: none;
+}
+* ::-webkit-scrollbar-track {
+  background-color: #000000;
+}
+* ::-webkit-scrollbar {
+  width: 6px;
+  background: #ffffff;
+}
+* ::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #1407FC 0%, #9B4EE1 100%);
+}
+
+body header {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+body header nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 1380px;
+  height: 70px;
+}
+body header nav ul {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  -moz-column-gap: 27px;
+       column-gap: 27px;
+  list-style-type: none;
+}
+body header nav ul .link1,
+body header nav ul .link2,
+body header nav ul .link3 {
+  visibility: hidden;
+}
+body header nav ul a {
+  font-weight: 600;
+  font-size: 32px;
+  color: #000000;
+  text-decoration: none;
+}
+body section {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: flex-end;
+}
+body section img {
+  width: 40vw;
+}
+body .studioCriativo {
+  width: 100vw;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .studioCriativo .containerStudio {
+  width: 1020px;
+  height: 350.24px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  row-gap: 75px;
+}
+body .studioCriativo .containerStudio .imgStudio {
+  width: 35vw;
+}
+body .studioCriativo .containerStudio p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+}
+body .containerWorks {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body .containerWorks p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 57px;
+  color: #000000;
+  margin-bottom: 76px;
+}
+body .containerWorks .containerMenor {
+  display: flex;
+  flex-direction: row;
+  -moz-column-gap: 25px;
+       column-gap: 25px;
+}/*# sourceMappingURL=style.css.map */
