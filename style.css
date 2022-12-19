@@ -5,6 +5,7 @@
   font-family: "Darker Grotesque", sans-serif;
   overflow-x: hidden;
   text-decoration: none;
+  cursor: url(image/Nauss.cur), default;
 }
 * ::-webkit-scrollbar-track {
   background-color: #000000;
@@ -24,6 +25,7 @@ body header {
   justify-content: center;
   position: fixed;
   top: 0;
+  z-index: 2;
 }
 body header nav {
   display: flex;
@@ -50,6 +52,7 @@ body header nav ul a {
   font-size: 32px;
   color: #000000;
   text-decoration: none;
+  cursor: url(image/EnterNauss.cur), pointer;
 }
 body section {
   width: 100vw;
@@ -57,14 +60,29 @@ body section {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: flex-end;
 }
-body section .videoMockup {
-  width: 880.06px;
-  height: 539px;
+body section .LogoNauss {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
-body section img {
-  width: 40vw;
+body section .LogoNauss img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 4;
+}
+body section .LogoNauss .bolha1 {
+  z-index: 3;
+  width: 540px;
+  height: 540px;
+  position: absolute;
+  background: radial-gradient(50% 50% at 50% 50%, #0500FF 0%, #0500FF 34.9%, #4C0494 100%);
+  filter: blur(96.5px);
+  border-radius: 50%;
 }
 body .studioCriativo {
   width: 100vw;
