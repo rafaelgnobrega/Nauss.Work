@@ -70,14 +70,17 @@ body {
         justify-content: center;
         align-items: flex-end;
 
-        
+        .videoMockup {
+            width: 880.06px;
+            height: 539px;
+        }
 
         img {
             width: 40vw;
         }
     }
 
-    
+
 
     .studioCriativo {
         width: 100vw;
@@ -92,7 +95,7 @@ body {
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
-            row-gap: 75px;
+            row-gap: 60px;
 
             .imgStudio {
                 width: 35vw;
