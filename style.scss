@@ -47,7 +47,7 @@ body {
             align-items: center;
             justify-content: flex-end;
             width: 1380px;
-            height: 70px;
+            height: 80px;
 
 
             ul {
@@ -56,6 +56,7 @@ body {
                 flex-direction: row;
                 column-gap: 27px;
                 list-style-type: none;
+                height: 98%;
 
                 .link1,
                 .link2,
@@ -63,7 +64,7 @@ body {
                     visibility: hidden;
                 }
 
-                a {
+                a {    
                     font-weight: 600;
                     font-size: 32px;
                     color: #000000;
@@ -99,8 +100,8 @@ body {
 
             .bolha1 {
                 z-index: 3;
-                width: 540px;
-                height: 540px;
+                width: 410px;
+                height: 410px;
                 position: absolute;
                 background: radial-gradient(50% 50% at 50% 50%, #0500FF 0%, #0500FF 34.9%, #4C0494 100%);
                 filter: blur(96.5px);
@@ -147,7 +148,6 @@ body {
         justify-content: center;
 
 
-
         p {
             font-style: normal;
             font-weight: 500;
@@ -164,4 +164,64 @@ body {
 
         }
     }
+
+    footer {
+        width: 100vw;
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 106px;
+
+        .linha {
+            width: 95vw;
+            border-top: solid #000000 2px;
+        }
+
+        .containerFooter {
+            display: flex;
+            flex-direction: row;
+            column-gap: 118px;
+            align-items: flex-start;
+
+
+
+            .logoFooter{
+                margin-top: 25px;
+            }
+
+            .containerTextos {
+                display: flex;
+                flex-direction: column;
+                row-gap: 86px;
+
+                p {
+                    width: 50vw;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 52px;
+                    line-height: 71px;
+                    color: #000000;
+                }
+
+                .linksFooter {
+                    display: flex;
+                    flex-direction: row;
+                    column-gap: 64px;
+                    a {
+                        font-family: 'Darker Grotesque';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 52px;
+                        line-height: 71px;
+                        color: #000000;
+                        border-bottom: solid #000000 ;
+                        cursor: url(image/NaussClick.cur), pointer;
+                    }
+                }
+            }
+        }
+    }
+    
 }
