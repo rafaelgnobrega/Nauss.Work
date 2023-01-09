@@ -51,3 +51,6 @@ function verificarPosicao() {
 window.onscroll = function() {
   verificarPosicao();
 };
+
+
+

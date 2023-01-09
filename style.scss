@@ -24,7 +24,10 @@
 }
 
 body {
-
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     .subir {
         position: fixed;
         bottom: 10px;
@@ -41,39 +44,8 @@ body {
         position: fixed;
         top: 0;
         z-index: 2;
-
-        nav {
-            display: flex;
-            align-items: center;
-            justify-content: flex-end;
-            width: 1380px;
-            height: 80px;
-
-
-            ul {
-                display: flex;
-                align-items: center;
-                flex-direction: row;
-                column-gap: 27px;
-                list-style-type: none;
-                height: 98%;
-
-                .link1,
-                .link2,
-                .link3 {
-                    visibility: hidden;
-                }
-
-                a {    
-                    font-weight: 600;
-                    font-size: 32px;
-                    color: #000000;
-                    text-decoration: none;
-                    cursor: url(image/NaussClick.cur), pointer;
-
-                }
-            }
-        }
+        
+        //Refazer Navbar
     }
 
     section {
@@ -140,28 +112,57 @@ body {
         }
     }
 
-    .containerWorks {
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .Projetos {
+        width: 95vw;
 
-
-        p {
-            font-style: normal;
-            font-weight: 500;
-            font-size: 42px;
-            line-height: 57px;
-            color: #000000;
+        .projetosMaiores {
             margin-bottom: 76px;
-        }
+            a {                
+                .containerImagem {
+                    img {
+                        cursor: url(image/NaussClick.cur), pointer;
+                        width: 100%;
+                        height: 65vh;
+                        object-fit: cover;
+                    }
+                }
 
-        .containerMenor {
+                p {
+                    font-family: 'Darker Grotesque';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 42px;
+                    line-height: 57px;
+                    text-decoration: none;
+                    
+                }
+            }
+        }
+        .projetosMenores {
+            margin-bottom: 76px;
             display: flex;
             flex-direction: row;
-            column-gap: 25px;
+            column-gap: 26px;
+            a {                
+                .containerImagemEsquerda {
+                    img {
+                        cursor: url(image/NaussClick.cur), pointer;
+                        width: 100%;
+                        height: 65vh;
+                        object-fit: cover;
+                    }
+                }
 
+                p {
+                    font-family: 'Darker Grotesque';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 42px;
+                    line-height: 57px;
+                    text-decoration: none;
+                    
+                }
+            }
         }
     }
 
@@ -223,5 +224,376 @@ body {
             }
         }
     }
+
+}
+
+// LAPTOP L
+@media (max-width: 1440px) {
+    body {
+        header {
+        //Refazer NavBar
+
+        }
     
+        section {
+           .LogoNauss {
+              img {
+                   width: 50vw;
+                }
+            }
+        }
+
+
+
+        footer {
+            height: 65vh;
+
+    
+            .containerFooter {
+                .logoFooter{
+                    margin-top: 25px;
+                    width: 25vw;
+                }
+    
+                .containerTextos {   
+                    p {
+                        font-size: 36px;
+                        line-height: 48px;
+
+                    }
+    
+                    .linksFooter {
+                        a {
+                            font-size: 32px;
+                            line-height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// LAPTOP
+@media (max-width: 1024px) {
+    body {
+        header {
+        //Refazer NavBar
+
+        }
+        
+        section {
+           .LogoNauss {
+              img {
+                   width: 45vw;
+                }
+                .bolha1 {
+                    width: 310px;
+                    height: 310px;
+                }
+            }
+        }
+
+        .studioCriativo {
+            width: 80vw;
+            height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .containerStudio {
+                width: 1020px;
+                height: 350.24px;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+                row-gap: 60px;
+    
+                .imgStudio {
+                    width: 40vw;
+                }
+    
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 32px;
+                    line-height: 44px;
+                }
+            }
+        }
+
+        footer {
+            height: 65vh;
+
+    
+            .containerFooter {
+                .logoFooter{
+                    margin-top: 25px;
+                    width: 25vw;
+                }
+    
+                .containerTextos {   
+                    p {
+                        font-size: 32px;
+                        line-height: 42px;
+
+                    }
+    
+                    .linksFooter {
+                        a {
+                            font-size: 32px;
+                            line-height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// TABLET
+@media (max-width: 768px) {
+    body {
+        header {
+        //Refazer NavBar
+        }
+        
+        section {
+           .LogoNauss {
+              img {
+                   width: 45vw;
+                }
+                .bolha1 {
+                    width: 310px;
+                    height: 310px;
+                }
+            }
+        }
+
+        .studioCriativo {
+            .containerStudio {
+                .imgStudio {
+                    width: 65vw;
+                }
+    
+                p {
+                    font-size: 26px;
+                    line-height: 36px;
+                    text-align: justify;
+                }
+            }
+        }
+
+        .Projetos {
+            width: 95vw;
+    
+            .projetosMaiores {
+                margin-bottom: 76px;
+                a {                
+                    .containerImagem {
+                        img {
+                            cursor: url(image/NaussClick.cur), pointer;
+                            width: 100%;
+                            height: 65vh;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    p {
+                        font-family: 'Darker Grotesque';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 42px;
+                        line-height: 57px;
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+            .projetosMenores {
+                margin-bottom: 76px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 76px;
+                a {                
+                    .containerImagemEsquerda {
+                        img {
+                            cursor: url(image/NaussClick.cur), pointer;
+                            width: 100%;
+                            height: 65vh;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    p {
+                        font-family: 'Darker Grotesque';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 42px;
+                        line-height: 57px;
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+        }
+
+        footer {
+            height: 65vh;
+            
+            .containerFooter {
+                .logoFooter{
+                    margin-top: 25px;
+                    width: 25vw;
+                }
+    
+                .containerTextos {   
+                    p {
+                        font-size: 32px;
+                        line-height: 42px;
+
+                    }
+    
+                    .linksFooter {
+                        a {
+                            font-size: 32px;
+                            line-height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// MOBILE L
+@media (max-width: 426px) {
+    body {
+        header {
+        //Refazer NavBar
+        }
+        
+        section {
+           .LogoNauss {
+              img {
+                   width: 65vw;
+                }
+                .bolha1 {
+                    width: 310px;
+                    height: 310px;
+                }
+            }
+        }
+
+        .studioCriativo {
+            width: 80vw;
+            height: 75vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+    
+            .containerStudio {
+                width: 95vw;
+                height: auto;
+                row-gap: 25px;
+      
+    
+                .imgStudio {
+                    width: 75vw;
+                }
+    
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 24px;
+                    text-align: left;
+                }
+            }
+        }
+
+        .Projetos {
+            width: 95vw;
+    
+            .projetosMaiores {
+                margin-bottom: 76px;
+                a {                
+                    .containerImagem {
+                        img {
+                            cursor: url(image/NaussClick.cur), pointer;
+                            width: 100%;
+                            height: 52vh;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    p {
+                        font-family: 'Darker Grotesque';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 42px;
+                        line-height: 57px;
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+            .projetosMenores {
+                margin-bottom: 76px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 76px;
+                a {                
+                    .containerImagemEsquerda {
+                        img {
+                            cursor: url(image/NaussClick.cur), pointer;
+                            width: 100%;
+                            height: 52vh;
+                            object-fit: cover;
+                        }
+                    }
+    
+                    p {
+                        font-family: 'Darker Grotesque';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 42px;
+                        line-height: 57px;
+                        text-decoration: none;
+                        
+                    }
+                }
+            }
+        }
+
+        footer {
+            height: 65vh;
+
+            .containerFooter {
+                flex-direction: column;
+                width: 75vw;
+
+                .logoFooter{
+                    margin-top: 25px;
+                    width: 35vw;
+                }
+    
+                .containerTextos {   
+                    p {
+                        font-size: 28px;
+                        line-height: 42px;
+                        width: auto;
+                        margin-top: 25px;
+
+                    }
+    
+                    .linksFooter {
+                        a {
+                            font-size: 28px;
+                            line-height: 42px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
