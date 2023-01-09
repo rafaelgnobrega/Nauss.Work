@@ -60,11 +60,11 @@ body section .LogoNauss img {
 }
 body section .LogoNauss .bolha1 {
   z-index: 3;
-  width: 410px;
-  height: 410px;
+  width: 480px;
+  height: 480px;
   position: absolute;
   background: radial-gradient(50% 50% at 50% 50%, #0500FF 0%, #0500FF 34.9%, #4C0494 100%);
-  filter: blur(96.5px);
+  filter: blur(76.5px);
   border-radius: 50%;
 }
 body .studioCriativo {
@@ -97,6 +97,10 @@ body .Projetos {
 body .Projetos .projetosMaiores {
   margin-bottom: 76px;
 }
+body .Projetos .projetosMaiores a {
+  text-decoration: none;
+  color: #000000;
+}
 body .Projetos .projetosMaiores a .containerImagem img {
   cursor: url(image/NaussClick.cur), pointer;
   width: 100%;
@@ -110,7 +114,6 @@ body .Projetos .projetosMaiores a p {
   font-weight: 500;
   font-size: 42px;
   line-height: 57px;
-  text-decoration: none;
 }
 body .Projetos .projetosMenores {
   margin-bottom: 76px;
@@ -118,6 +121,10 @@ body .Projetos .projetosMenores {
   flex-direction: row;
   -moz-column-gap: 26px;
        column-gap: 26px;
+}
+body .Projetos .projetosMenores a {
+  text-decoration: none;
+  color: #000000;
 }
 body .Projetos .projetosMenores a .containerImagemEsquerda img {
   cursor: url(image/NaussClick.cur), pointer;
@@ -214,6 +221,7 @@ body footer .containerFooter .containerTextos .linksFooter a {
   body section .LogoNauss .bolha1 {
     width: 310px;
     height: 310px;
+    filter: blur(56.5px);
   }
   body .studioCriativo {
     width: 80vw;
@@ -336,6 +344,7 @@ body footer .containerFooter .containerTextos .linksFooter a {
   body section .LogoNauss .bolha1 {
     width: 310px;
     height: 310px;
+    filter: blur(56.5px);
   }
   body .studioCriativo {
     width: 80vw;
