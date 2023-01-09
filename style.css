@@ -329,7 +329,7 @@ body footer .containerFooter .containerTextos .linksFooter a {
     line-height: 42px;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 460px) {
   body section .LogoNauss img {
     width: 65vw;
   }
