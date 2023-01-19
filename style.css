@@ -88,7 +88,7 @@ body .studioCriativo .containerStudio .imgStudio {
 body .studioCriativo .containerStudio p {
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 2rem;
   line-height: 44px;
 }
 body .Projetos {
@@ -339,11 +339,11 @@ body footer .containerFooter .containerTextos .linksFooter a {
 }
 @media (max-width: 460px) {
   body section .LogoNauss img {
-    width: 65vw;
+    width: 70vw;
   }
   body section .LogoNauss .bolha1 {
-    width: 310px;
-    height: 310px;
+    width: 425px;
+    height: 425px;
     filter: blur(56.5px);
   }
   body .studioCriativo {
@@ -410,7 +410,7 @@ body footer .containerFooter .containerTextos .linksFooter a {
     text-decoration: none;
   }
   body footer {
-    height: 65vh;
+    height: 75vh;
   }
   body footer .containerFooter {
     flex-direction: column;
@@ -421,13 +421,13 @@ body footer .containerFooter .containerTextos .linksFooter a {
     width: 35vw;
   }
   body footer .containerFooter .containerTextos p {
-    font-size: 28px;
+    font-size: 1.625rem;
     line-height: 42px;
     width: auto;
     margin-top: 25px;
   }
   body footer .containerFooter .containerTextos .linksFooter a {
-    font-size: 28px;
+    font-size: 1.625rem;
     line-height: 42px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -107,7 +107,7 @@ body {
             p {
                 font-style: normal;
                 font-weight: 500;
-                font-size: 32px;
+                font-size: 2rem;
                 line-height: 44px;
             }
         }
@@ -141,6 +141,7 @@ body {
                 }
             }
         }
+
         .projetosMenores {
             margin-bottom: 76px;
             display: flex;
@@ -468,11 +469,11 @@ body {
         section {
            .LogoNauss {
               img {
-                   width: 65vw;
+                   width: 70vw;
                 }
                 .bolha1 {
-                    width: 310px;
-                    height: 310px;
+                    width: 425px;
+                    height: 425px;
                     filter: blur(56.5px);
                 }
             }
@@ -559,7 +560,7 @@ body {
         }
 
         footer {
-            height: 65vh;
+            height: 75vh;
 
             .containerFooter {
                 flex-direction: column;
@@ -572,7 +573,7 @@ body {
     
                 .containerTextos {   
                     p {
-                        font-size: 28px;
+                        font-size: 1.625rem;
                         line-height: 42px;
                         width: auto;
                         margin-top: 25px;
@@ -581,7 +582,7 @@ body {
     
                     .linksFooter {
                         a {
-                            font-size: 28px;
+                            font-size: 1.625rem;
                             line-height: 42px;
                         }
                     }
