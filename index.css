@@ -56,10 +56,10 @@ body section .LogoNauss img {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 4;
+  z-index: 1;
 }
 body section .LogoNauss .bolha1 {
-  z-index: 3;
+  z-index: 0;
   width: 480px;
   height: 480px;
   position: absolute;
@@ -429,4 +429,4 @@ body footer .containerFooter .containerTextos .linksFooter a {
     font-size: 1.625rem;
     line-height: 42px;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
