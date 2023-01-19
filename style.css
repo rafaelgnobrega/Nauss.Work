@@ -342,9 +342,8 @@ body footer .containerFooter .containerTextos .linksFooter a {
     width: 70vw;
   }
   body section .LogoNauss .bolha1 {
-    width: 425px;
-    height: 425px;
-    filter: blur(56.5px);
+    width: 1px;
+    height: 1px;
   }
   body .studioCriativo {
     width: 80vw;
